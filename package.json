@@ -2,9 +2,10 @@
   "name": "tailwindui-saas",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Istiaaak.github.io/Istiaaak.github.io ",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
