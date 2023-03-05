@@ -1,13 +1,8 @@
 import Image from 'next/image'
 
-import { ButtonLink } from '@/components/Button'
+
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
 import logoKS from '@/images/logos/LOGONOIR (1).svg'
-import logoTuple from '@/images/logos/tuple.svg'
 import logoTezos from '@/images/logos/tezos-xtz-logo.svg'
 import logoNomadic from '@/images/logos/nomadic (1).svg'
 import logoBC from '@/images/logos/blockchaincontract (1) (1).png'

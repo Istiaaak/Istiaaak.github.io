@@ -7,9 +7,6 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Prizepool } from '@/components/Prizepool'
-import { Pricing } from '@/components/Pricing'
-import { Testimonials } from '@/components/Testimonials'
 import { Calendar } from '@/components/Calender'
 
 export default function Home() {
