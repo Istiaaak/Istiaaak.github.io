@@ -5,8 +5,8 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.png'
-import screenshotPayroll from '@/images/screenshots/27833994.jpg'
-import screenshotReporting from '@/images/screenshots/tech.jpg'
+import screenshotPayroll from '@/images/screenshots/27833994.png'
+import screenshotReporting from '@/images/screenshots/tech.png'
 import screenshotVatReturns from '@/images/screenshots/cash.png'
 
 const features = [

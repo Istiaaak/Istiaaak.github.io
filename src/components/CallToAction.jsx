@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
+import backgroundImage from '@/images/background-call-to-action.png'
 
 export function CallToAction() {
   return (
