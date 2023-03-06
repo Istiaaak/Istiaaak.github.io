@@ -134,7 +134,7 @@ export function Header() {
             <li className="ml-6 hidden md:block">
               <Link href="#calendar">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Calendar
+                  Calendarr
                 </a>
               </Link>
             </li>
