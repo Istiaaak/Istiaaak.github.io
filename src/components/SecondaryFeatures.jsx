@@ -5,8 +5,8 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/ssi.png'
-import screenshotInventory from '@/images/screenshots/solidarity.jpg'
-import screenshotProfitLoss from '@/images/screenshots/Finance-decentralisee.jpg'
+import screenshotInventory from '@/images/screenshots/solidarity.png'
+import screenshotProfitLoss from '@/images/screenshots/Finance-decentralisee.png'
 
 const features = [
   {
