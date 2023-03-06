@@ -62,7 +62,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
 export function Pricing() {
   return (
     <section
-      id="price"
+      id="prices"
       aria-labelledby="pricing-title"
       className="bg-slate-900 py-20 sm:py-32"
     >
