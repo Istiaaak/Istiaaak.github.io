@@ -70,7 +70,7 @@ export function Footer() {
                 </svg>
               </a>
             </Link>
-            <Link href="https://www.linkedin.com/in/hackathon-haks-276029264/">
+            <Link href="https://www.linkedin.com/company/haks2023/">
               <a className="group">
                 <span className="sr-only">HAKS on LinkedIn</span>
                 <svg

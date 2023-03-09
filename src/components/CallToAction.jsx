@@ -27,16 +27,16 @@ export function CallToAction() {
             HAKS 2022
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            You will go thought a 2-day hackathon starting from 21st to 23rd April 2023 near Paris.
+            You will go thought a 2-day hackathon starting from 12st to 14rd May 2023 near Paris.
           </p>
           <p className="mt-4 text-lg tracking-tight text-white">
           Don't miss the chance to compete for the prize :
           </p>
           <p className=" text-3xl tracking-tight text-white">
-            the 24.000 € prize pool awaits you!
+            the 14.000 € prize pool awaits you!
           </p>
           <ButtonLink href="/register" color="white" className="mt-10">
-            Register
+            Register now !
           </ButtonLink>
         </div>
       </Container>

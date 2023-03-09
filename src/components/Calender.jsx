@@ -29,7 +29,7 @@ export function Calendar() {
                         <Timeline.Point />
                         <Timeline.Content>
                             <Timeline.Time>
-                                3-31 March 
+                                13 March 
                             </Timeline.Time>
                             <Timeline.Title>
                                 Registration
@@ -43,7 +43,7 @@ export function Calendar() {
                         <Timeline.Point />
                         <Timeline.Content>
                             <Timeline.Time>
-                                21-23 April
+                                12-14 May
                             </Timeline.Time>
                             <Timeline.Title>
                                 HAKS days

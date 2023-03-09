@@ -5,9 +5,17 @@ import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Calendar } from '@/components/Calender'
+import { Speakers } from '@/components/Speakers'
+import { Resources } from '@/components/Resources'
+
+
+
+
+
+
+
 
 export default function Home() {
   return (
@@ -23,9 +31,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <PrimaryFeatures />
-        <SecondaryFeatures />
         <CallToAction />
+        <SecondaryFeatures />
+        <Resources />
+        <Speakers />
         <Calendar />
         <Faqs />
       </main>

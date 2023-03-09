@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@fontsource/space-mono;
 
 #__next {
   min-height: 100%;
