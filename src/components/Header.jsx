@@ -61,9 +61,9 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="#features">
+                  <Link href="#profiles">
                     <a className="block w-full" onClick={() => close()}>
-                      Why Join?
+                      Profiles
                     </a>
                   </Link>
                 </li>
@@ -75,9 +75,23 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#pricing">
+                  <Link href="#speakers">
                     <a className="block w-full" onClick={() => close()}>
-                      Prize pool
+                      Speakers
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#infos">
+                    <a className="block w-full" onClick={() => close()}>
+                      Pratical informations
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#calender">
+                    <a className="block w-full" onClick={() => close()}>
+                      Agenda
                     </a>
                   </Link>
                 </li>
@@ -86,11 +100,6 @@ function MobileNavigation() {
                     <a className="block w-full" onClick={() => close()}>
                       FAQ
                     </a>
-                  </Link>
-                </li>
-                <li className="border-t border-slate-300/40 pt-4">
-                  <Link href="/login">
-                    <a className="block w-full">Sign in</a>
                   </Link>
                 </li>
 
