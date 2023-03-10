@@ -89,7 +89,7 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#calender">
+                  <Link href="#calendar">
                     <a className="block w-full" onClick={() => close()}>
                       Agenda
                     </a>
