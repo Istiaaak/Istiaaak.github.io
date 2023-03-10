@@ -2,11 +2,16 @@ import Image from 'next/image'
 
 
 import { Container } from '@/components/Container'
-import logoKS from '@/images/logos/LOGONOIR (1).svg'
-import logoTezos from '@/images/logos/tezos-xtz-logo.svg'
-import logoNomadic from '@/images/logos/nomadic (1).svg'
-import logoBC from '@/images/logos/blockchaincontract (1) (1).png'
-import logoTsp from '@/images/logos/logo tsp (1).png'
+import logoLaravel from '@/images/logos/laravel.svg'
+import logoMirage from '@/images/logos/mirage.svg'
+import logoStatamic from '@/images/logos/statamic.svg'
+import logoStaticKit from '@/images/logos/statickit.svg'
+import logoTransistor from '@/images/logos/transistor.svg'
+import logoTuple from '@/images/logos/tuple.svg'
+import logoKS from '@/images/logos/KS.svg'
+import logoTsp from '@/images/logos/Tsp.png'
+import logoTezos from '@/images/logos/tezos.png'
+import logoMarigold from '@/images/logos/marigold.png'
 
 export function Hero() {
   return (
@@ -26,8 +31,19 @@ export function Hero() {
             <ul className="flex flex-col items-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-12">
               <li className="flex">
                 <Image
+                  src={logoKS}
+                  alt="Transistor"
+                  layout="fixed"
+                  unoptimized
+                />
+              </li>
+              <li className="flex">
+                <Image src={logoTsp} alt="Tuple" layout="fixed" unoptimized />
+              </li>
+              <li className="flex">
+                <Image
                   src={logoTezos}
-                  alt="Tezos"
+                  alt="StaticKit"
                   layout="fixed"
                   unoptimized
                 />
@@ -38,32 +54,8 @@ export function Hero() {
             <ul className="flex flex-col items-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-12">
               <li className="flex">
                 <Image
-                  src={logoNomadic}
+                  src={logoMarigold}
                   alt="Mirage"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li>
-              <li className="flex">
-                <Image
-                  src={logoBC}
-                  alt="Laravel"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li>
-              <li className="flex">
-                <Image
-                  src={logoKS}
-                  alt="Statamic"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li>
-              <li className="flex">
-                <Image
-                  src={logoTsp}
-                  alt="Statamic"
                   layout="fixed"
                   unoptimized
                 />

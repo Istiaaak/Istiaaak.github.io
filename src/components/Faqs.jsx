@@ -51,7 +51,7 @@ export function Faqs() {
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
       <h2 id="faq-title" className="sr-only">
-        Frequently asked questions
+        Frequently asked question
       </h2>
       <div className="absolute top-0 left-1/2 -translate-x-[30%] -translate-y-[25%]">
         <Image
@@ -64,11 +64,14 @@ export function Faqs() {
         />
       </div>
       <Container className="relative">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <p className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Frequently asked questions
-          </p>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+      <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2
+            id="speakers-title"
+            className="md:text-center font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+          >
+            Frequently asked question
+          </h2>
+          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             If you can’t find what you’re looking for, email our support team
             and if you’re lucky someone will get back to you.
           </p>

@@ -10,6 +10,17 @@ export function Calendar() {
         id="calendar"
         className="relative overflow-hidden  py-32">
             <Container className="relative">
+                <div className="mx-auto max-w-2xl lg:mx-0 pb-20" >
+                    <h2
+                    id="speakers-title"
+                    className="md:text-center font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+                    >
+                    The agenda
+                    </h2>
+                </div>
+                <div>
+
+                </div>
                 <Timeline>
                     <Timeline.Item>
                         <Timeline.Point />

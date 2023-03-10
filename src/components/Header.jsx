@@ -118,9 +118,9 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-12 hidden md:block">
-              <Link href="#features">
+              <Link href="#profiles">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Why Join?
+                  Profiles
                 </a>
               </Link>
             </li>
@@ -132,9 +132,23 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
+              <Link href="#speakers">
+                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  Speakers
+                </a>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="#infos">
+                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  Pratical informations
+                </a>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
               <Link href="#calendar">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Calendar
+                  Agenda
                 </a>
               </Link>
             </li>
@@ -153,11 +167,7 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-auto md:ml-8">
-              <ButtonLink href="/register" color="blue">
-                <span>
-                  Sign<span className="hidden lg:inline"> up</span>
-                </span>
-              </ButtonLink>
+
             </li>
             <li className="ml-5 -mr-1 md:hidden">
               <MobileNavigation />

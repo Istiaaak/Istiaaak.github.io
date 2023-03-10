@@ -12,23 +12,44 @@ export function Footer() {
           <nav className="mt-10 text-sm" aria-label="quick links">
             <ul className="-my-1 flex justify-center space-x-6">
               <li>
-                <Link href="#features">
+                <Link href="#profiles">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Why Join ?
+                    Profiles
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#testimonials">
+                <Link href="#challenge">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Challenge
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#pricing">
+                <Link href="#speakers">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Prize Pool
+                    Speakers
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#infos">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    Pratical informations
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#calendar">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    Agenda
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#faqs">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    FAQ
                   </a>
                 </Link>
               </li>

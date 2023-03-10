@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import abstractBackgroundImage from '@/images/resources/abstract-background.png'
-import discordImage from '@/images/resources/discord.svg'
+import discordImage from '@/images/resources/students.jpg'
 import figmaImage from '@/images/resources/dev.jpg'
-import videoPlayerImage from '@/images/resources/video-player.svg'
+import videoPlayerImage from '@/images/resources/manager.jpg'
 
 const resources = [
   {
@@ -56,14 +56,22 @@ const resources = [
 export function Resources() {
   return (
     <section
-      id="resources"
+      id="profiles"
       aria-labelledby="resources-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
-        <p className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-          Profiles
-        </p>
+      <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2
+            id="speakers-title"
+            className="md:text-center font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+          >
+            Profiles
+          </h2>
+          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+            
+          </p>
+        </div>
       </Container>
       <Container size="lg" className="mt-16">
         <ol className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20">

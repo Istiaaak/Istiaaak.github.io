@@ -9,6 +9,9 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Calendar } from '@/components/Calender'
 import { Speakers } from '@/components/Speakers'
 import { Resources } from '@/components/Resources'
+import { Pricing } from '@/components/Pricing'
+import { Challenge } from '@/components/Challenge'
+import { Infos } from '@/components/Infos'
 
 
 
@@ -32,9 +35,10 @@ export default function Home() {
       <main>
         <Hero />
         <CallToAction />
-        <SecondaryFeatures />
         <Resources />
+        <Challenge />
         <Speakers />
+        <Infos />
         <Calendar />
         <Faqs />
       </main>
